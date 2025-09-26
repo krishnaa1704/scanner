@@ -1,0 +1,11 @@
+<mvc:View controllerName="scanner.controller.View1"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns="sap.m">
+    <Page id="page" title="{i18n>title}">
+    <Button text="Scan" press="OnScan" id="scanbutton"></Button>
+    <VBox>
+    <Label text="Data"></Label>
+    <Input id="Materialnumber"></Input>
+    </VBox>
+    </Page>
+</mvc:View>
